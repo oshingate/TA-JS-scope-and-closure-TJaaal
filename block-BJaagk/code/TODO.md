@@ -93,13 +93,13 @@ five = function () {
 ```
 
 6. What is the difference between function definition and function call? Explain with an example.
-<!-- in function defination we use function keyword to declare function and write steps to be executed.
-and in function call we call that series of steps to execute one by one
-ex:- function add(num1,num2){return num1+num2} //function defination
-add(1,2)//function call
- -->
+   in function defination we use function keyword to declare function and write steps to be executed.
+   and in function call we call that series of steps to execute one by one
+   ex:- function add(num1,num2){return num1+num2} //function defination
+   add(1,2)//function call
+
 7. What is the similarities between function definition and function call?
-<!-- both are used on functions -->
+   both are used on functions
 8. Is the code below valid or invalid. Explain with reason.
 
 ```js
