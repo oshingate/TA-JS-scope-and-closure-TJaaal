@@ -29,9 +29,9 @@ The returned function either accepts two parameter or one parameter.
 - When you pass one parameter it should return a string with words replaced with the required words.
 
 ```js
-var arr = [];
 function multipleCensor() {
   //  Your code goes here
+  var arr = [];
   return function (first = 0, second = 0) {
     if (first !== 0 && second !== 0) {
       arr.push(first);
@@ -67,9 +67,9 @@ The returned function accepts one parameter.
 - If the parameter is the same as the password it will return the object in which we stored the values.
 
 ```js
-let obj = {};
 function createCache(cb, str) {
   // Your code goes here
+  let obj = {};
   return function (para) {
     if (para !== str) {
       obj[para] = cb(para);
@@ -96,9 +96,9 @@ addCache("foo"); // {12: 22, 100: 110, 1: 11}
 4. Change the above function in such a way that when the returned function is called with any other value than password. It should first check the object where we are storing the argument and return value. If the key is present return the value form the object itself. Otherwise call the callback function with the parameter.
 
 ```js
-let obj = {};
 function createCache(cb, str) {
   // Your code goes here
+  let obj = {};
   return function (para) {
     if (para !== str) {
       if (obj.hasOwnProperty(para)) {
